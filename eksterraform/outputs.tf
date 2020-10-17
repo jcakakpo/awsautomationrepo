@@ -19,11 +19,6 @@ data:
         - system:bootstrappers
         - system:nodes
 
-    - rolearn: arn:aws:sts::821975668517:assumed-role/jc-role-for-ec2-eks-cluster/i-05c2be111c927941e
-      username: i-05c2be111c927941e
-      groups:
-        - system:masters
-
 CONFIGMAPAWSAUTH
 
   kubeconfig = <<KUBECONFIG
